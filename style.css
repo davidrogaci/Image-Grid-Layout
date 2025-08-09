@@ -5,4 +5,17 @@
   box-sizing: border-box;
 }
 
+/* ESTILOS DEL LAYOUT */
 
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 15px;
+}
+
+img {
+  width: auto;
+  height: 100dvh;
+  object-fit: cover;
+  object-position: center;
+}
