@@ -8,16 +8,17 @@
 /* ESTILOS DEL LAYOUT */
 
 .container {
+  height: 100dvh;
   padding: 10px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   grid-template-rows: repeat(3, 1fr);
   gap: 12px;
 }
 
 img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
   object-position: center;
 }
